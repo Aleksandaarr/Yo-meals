@@ -1,0 +1,8 @@
+<suite name="Testing Yo_meals">
+    <test name="Yo_meals site Testing">
+         <classes>
+             <class name="Tests.MealItemTest"/>
+             <class name="Tests.ProfileTest"/>
+          </classes>
+     </test>
+</suite> 
