@@ -72,7 +72,7 @@ public abstract class BasicTest {
 			System.out.println(d.toString());
 			SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH-mm-ss");
 			File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-			FileHandler.copy(scrFile, new File("C:\\Users\\Silja\\eclipse-workspace\\My Project\\screenshots\\screenshot" + sdf.format(d) + ".png"));
+			FileHandler.copy(scrFile, new File("screenshots/screenshot" + sdf.format(d) + ".png"));
 
 		} else {
 			System.out.println("Successfull test");
